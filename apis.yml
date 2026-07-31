@@ -1,7 +1,26 @@
 aid: noon-academy
 name: Noon Academy
-description: Noon Academy is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Noon Academy (Noon) is a social learning platform where students study
+  alongside their friends in live, teacher-led group classes. Operated by Noon Tech
+  Limited and headquartered in Riyadh, Saudi Arabia, the company serves more than 12
+  million students and over 100,000 teachers across five countries, primarily in the
+  Middle East and South Asia. Noon is a consumer education product delivered through
+  student and teacher apps and a web experience; it does not currently publish a public
+  developer API, SDKs, or a developer portal. This API Evangelist profile was created
+  from a 500 Global portfolio lead and enriched with the company's public identity
+  and domain-security posture.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/37176197?v=4
 url: https://raw.githubusercontent.com/api-evangelist/noon-academy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Social Learning
+- Online Learning
+- Tutoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://learnatnoon.com
+- type: TermsOfService
+  url: https://www.noonacademy.com/terms
+- type: PrivacyPolicy
+  url: https://www.noonacademy.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/noonAcademy
+- type: DomainSecurity
+  url: security/noon-academy-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
