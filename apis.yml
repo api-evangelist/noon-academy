@@ -9,6 +9,17 @@ description: Noon Academy (Noon) is a social learning platform where students st
   developer API, SDKs, or a developer portal. This API Evangelist profile was created
   from a 500 Global portfolio lead and enriched with the company's public identity
   and domain-security posture.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
