@@ -31,6 +31,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://learnatnoon.com', status: 302, note: 'declared website redirects to https://www.noonacademy.com/ — a different registrable domain (learnatnoon.com -> noonacademy.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://avatars.githubusercontent.com/u/37176197?v=4
 url: https://raw.githubusercontent.com/api-evangelist/noon-academy/refs/heads/main/apis.yml
 x-type: company
